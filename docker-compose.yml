@@ -1,10 +1,5 @@
 version: '2'
 services:
-  frontend:
-    build: ./frontend
-    privileged: true
-    ports:
-      - "80:80"
   datadog:
     build: ./datadog
     privileged: true
